@@ -1,0 +1,25 @@
+<div class="calculadora">
+    <div class="resultado">
+        {{ resultado }}
+    </div>
+    <div class="numeros">
+        <button (click)="pulsarBoton(1)">1</button>
+        <button (click)="pulsarBoton(2)">2</button>
+        <button (click)="pulsarBoton(3)">3</button>
+        <button (click)="pulsarBoton(4)">4</button>
+        <button (click)="pulsarBoton(5)">5</button>
+        <button (click)="pulsarBoton(6)">6</button>
+        <button (click)="pulsarBoton(7)">7</button>
+        <button (click)="pulsarBoton(8)">8</button>
+        <button (click)="pulsarBoton(9)">9</button>
+        <button (click)="pulsarBoton(0)">0</button>
+    </div>
+    <div class="calculos">
+        <button (click)="pulsarBoton('+')">+</button>
+        <button (click)="pulsarBoton('-')">-</button>
+        <button (click)="pulsarBoton('*')">*</button>
+        <button (click)="pulsarBoton('/')">/</button>
+        <button (click)="pulsarBotonIgual()">=</button>
+    </div>
+    <button (click)="pulsarBotonC()">C</button>
+</div>

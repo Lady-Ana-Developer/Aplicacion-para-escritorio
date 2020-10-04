@@ -1,0 +1,19 @@
+.dashboard{
+    background-color: aliceblue;
+}
+
+#contador{
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+#calculadora{
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.tareas{
+    margin: 10px;
+    display: flexbox;
+}

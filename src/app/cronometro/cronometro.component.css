@@ -1,0 +1,22 @@
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contador{
+    margin: 10px;
+    padding: 10px;
+}
+
+.cronometro p {
+    font-size: 64px;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.cronometro button {
+    width: 80%;
+}
